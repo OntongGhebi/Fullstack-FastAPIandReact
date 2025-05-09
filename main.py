@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restx import Api, Resource
 from database.exts import db
 from config import DevConfig
+from database.db_init import db
 
 app = Flask(__name__)
 api = Api(app, doc="/docs", prefix="/api")
