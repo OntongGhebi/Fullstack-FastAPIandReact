@@ -22,36 +22,6 @@ A modern fullstack web application built with **FastAPI** for the backend and **
 
 ---
 
-## 📁 Folder Structure
-.
-├── backend
-│ ├── .venv
-│ └── src
-│ ├── database
-│ ├── routes
-│ ├── pyproject.toml
-│ └── uv.lock
-├── frontend
-│ ├── node_modules
-│ ├── public
-│ └── src
-│ ├── auth
-│ ├── challenge
-│ ├── history
-│ ├── layout
-│ └── utils
-│ ├── App.jsx
-│ ├── index.css
-│ ├── main.jsx
-├── .env
-├── .gitignore
-├── index.html
-├── vite.config.js
-├── README.md
-
-
----
-
 ## 🛠️ Technologies Used
 
 ### Backend
