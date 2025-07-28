@@ -1,4 +1,4 @@
-# 🧩 Fullstack FastAPI and React Application
+# 🧩 Fullstack Code Challenge Generator Application
 
 A modern fullstack web application built with **FastAPI** for the backend and **React** with **Vite** for the frontend. This project includes authentication, history tracking, challenge modules, and a responsive layout.
 
