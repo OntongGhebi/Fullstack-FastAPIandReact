@@ -1,17 +1,17 @@
 import "react";
-import { useState, useEffect } from "react";
-import { MQLChallenge } from "./MCQChallenge.jsx";
+import { useState } from "react";
+import { MCQChallenge } from "./MCQChallenge.jsx";
 
 export function ChallengeGenerator() {
-  const [challenge, setChallenge] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [challenge] = useState(null);
+  const [isLoading] = useState(false);
+  const [error] = useState(null);
   const [difficulty, setDifficulty] = useState("easy");
-  const [quota, setQuota] = useState(null);
+  const [quota] = useState(null);
 
-  const fetchQuota = async () => {};
+  // const fetchQuota = async () => {};
   const generateChallenge = async () => {};
-  const getNextResetTime = () => {};
+  // const getNextResetTime = () => {};
 
   return (
     <div className="challenge-container">
@@ -47,7 +47,7 @@ export function ChallengeGenerator() {
         </div>
       )}
 
-      {challenge && <MQLChallenge challenge={challenge} />}
+      {challenge && <MCQChallenge challenge={challenge} />}
     </div>
   );
 }
