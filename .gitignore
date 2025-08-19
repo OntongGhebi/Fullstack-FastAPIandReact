@@ -1,4 +1,6 @@
 backend/src/.env
 backend/src/__pycache__/
 backend/src/database/__pycache__/
+backend/src/routes/__pycache__/
+
 backend/databases.db
