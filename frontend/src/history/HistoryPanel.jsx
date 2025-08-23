@@ -4,7 +4,7 @@ import { MCQChallenge } from "../challenge/MCQChallenge.jsx";
 import { useApi } from "../utils/api.js";
 
 export function HistoryPanel() {
-  // const { makeRequest } = useApi();
+  const { makeRequest } = useApi();
   const [history, setHistory] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
